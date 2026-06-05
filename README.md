@@ -121,7 +121,11 @@ Flask Deployment & Web Interface
 ## Key Achievements
 
 ✔ Achieved 98.96% Accuracy
+
 ✔ Reduced False Positives
+
 ✔ Implemented CNN + LSTM + BiLSTM
+
 ✔ Built Flask-Based Web Application
+
 ✔ Applied NLP Techniques for SMS Analysis
