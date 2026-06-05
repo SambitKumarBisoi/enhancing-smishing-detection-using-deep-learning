@@ -28,12 +28,39 @@ To improve smishing detection accuracy while reducing false positives using adva
 - NLTK
 - Flask
 
+## Project Workflow
+
+SMS Message
+     ↓
+Data Preprocessing
+     ↓
+Tokenization
+     ↓
+Stopword Removal
+     ↓
+Stemming & Lemmatization
+     ↓
+TF-IDF Feature Extraction
+     ↓
+Dataset Splitting
+     ↓
+Model Training
+     ↓
+CNN + LSTM + BiLSTM
+     ↓
+Evaluation
+     ↓
+Prediction
+
 ## 📊 Results
+
+The proposed hybrid deep learning architecture achieved excellent performance in detecting smishing messages.
 
 | Model | Accuracy |
 |---------|----------|
-| LSTM | Evaluated |
 | GRU | Evaluated |
+| LSTM | Evaluated |
+| BiLSTM | Evaluated |
 | CNN + LSTM | 98.83% |
 | CNN + LSTM + BiLSTM | 98.96% |
 
@@ -44,7 +71,7 @@ To improve smishing detection accuracy while reducing false positives using adva
 - Multilingual Support
 - BERT-Based Detection Models
 
-# Requirements.txt
+## Requirements.txt
 - numpy
 - pandas
 - matplotlib
@@ -55,7 +82,7 @@ To improve smishing detection accuracy while reducing false positives using adva
 - nltk
 - flask
 
-  # Git Commands
+## Git Commands
   
 After creating the repository:
 - git init
@@ -65,14 +92,12 @@ After creating the repository:
 - git remote add origin https://github.com/SambitKumarBisoi/enhancing-smishing-detection-using-deep-learning.git
 - git push -u origin main
 
-# Recommended Folder Structure
+## Recommended Folder Structure
 enhancing-smishing-detection-using-deep-learning/
-│
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
 ├── .gitignore
-│
 ├── datasets/
 ├── notebooks/
 ├── models/
@@ -80,3 +105,10 @@ enhancing-smishing-detection-using-deep-learning/
 ├── app/
 ├── report/
 └── presentation/
+
+## Team Members
+
+- Sambit Kumar Bisoi (Project Lead & Deep Learning)
+- Subham Gouda (Data Preprocessing & Feature Engineering)
+- R Amrit Raj (Dataset Collection & Analysis)
+- Subrat Gouda (Deployment & Web Application)
