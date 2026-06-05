@@ -31,24 +31,34 @@ To improve smishing detection accuracy while reducing false positives using adva
 ## Project Workflow
 
 SMS Message
+
      ↓
 Data Preprocessing
+
      ↓
 Tokenization
+
      ↓
 Stopword Removal
+
      ↓
 Stemming & Lemmatization
+
      ↓
 TF-IDF Feature Extraction
+
      ↓
 Dataset Splitting
+
      ↓
 Model Training
+
      ↓
 CNN + LSTM + BiLSTM
+
      ↓
 Evaluation
+
      ↓
 Prediction
 
