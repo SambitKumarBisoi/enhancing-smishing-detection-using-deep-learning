@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sequence">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Background -->
+        <mxCell id="bg" style="shape=rectangle;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1200" height="800" as="geometry"/>
+        </mxCell>
+
+        <!-- User -->
+        <mxCell id="user" value="User" style="shape=rectangle;fillColor=#ccffcc;strokeColor=#00FFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="120" height="50"/>
+        </mxCell>
+
+        <!-- System -->
+        <mxCell id="system" value="System" style="shape=rectangle;fillColor=#ccffcc;strokeColor=#00FFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="40" width="120" height="50"/>
+        </mxCell>
+
+        <!-- Lifelines -->
+        <mxCell id="l1" style="shape=line;strokeColor=#00FFFF;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="1" height="650"/>
+        </mxCell>
+
+        <mxCell id="l2" style="shape=line;strokeColor=#00FFFF;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="90" width="1" height="650"/>
+        </mxCell>
+
+        <!-- Messages -->
+        <mxCell id="m1" value="Upload SMS Smishing dataset" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="210" y="150" as="sourcePoint"/>
+            <mxPoint x="910" y="150" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m2" value="NLTK objects to clean question text data" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="910" y="200" as="sourcePoint"/>
+            <mxPoint x="700" y="200" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m3" value="Clean text by removing stop words and other special symbols" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="910" y="250" as="sourcePoint"/>
+            <mxPoint x="700" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m4" value="Extracting features from SMS text using TFIDF vector" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="910" y="300" as="sourcePoint"/>
+            <mxPoint x="700" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m5" value="Shuffling and normalizing TFIDF features, Dataset Train & Test Split" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="910" y="350" as="sourcePoint"/>
+            <mxPoint x="700" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m6" value="Training BI-LSTM && GRU, LSTM" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="910" y="400" as="sourcePoint"/>
+            <mxPoint x="700" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m7" value="Training CNN + LSTM" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="910" y="450" as="sourcePoint"/>
+            <mxPoint x="700" y="450" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m8" value="CNN + LSTM + Bidirectional" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="910" y="500" as="sourcePoint"/>
+            <mxPoint x="700" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m9" value="Upload Test Data" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="210" y="550" as="sourcePoint"/>
+            <mxPoint x="910" y="550" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m10" value="Predict SMS as HAM or Smishing" style="endArrow=block;strokeColor=#00FFFF;fontColor=#ffffff;" edge="1" parent="1">
+          <mxGeometry relative="0">
+            <mxPoint x="910" y="600" as="sourcePoint"/>
+            <mxPoint x="700" y="600" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
