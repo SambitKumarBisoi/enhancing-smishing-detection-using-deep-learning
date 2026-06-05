@@ -31,34 +31,24 @@ To improve smishing detection accuracy while reducing false positives using adva
 ## Project Workflow
 
 SMS Message
-
      ↓
 Data Preprocessing
-
      ↓
 Tokenization
-
      ↓
 Stopword Removal
-
      ↓
 Stemming & Lemmatization
-
      ↓
 TF-IDF Feature Extraction
-
      ↓
 Dataset Splitting
-
      ↓
 Model Training
-
      ↓
 CNN + LSTM + BiLSTM
-
      ↓
 Evaluation
-
      ↓
 Prediction
 
@@ -103,6 +93,7 @@ After creating the repository:
 - git push -u origin main
 
 ## Recommended Folder Structure
+
 enhancing-smishing-detection-using-deep-learning/
 ├── README.md
 ├── requirements.txt
@@ -118,7 +109,19 @@ enhancing-smishing-detection-using-deep-learning/
 
 ## Team Members
 
-- Sambit Kumar Bisoi (Project Lead & Deep Learning)
-- Subham Gouda (Data Preprocessing & Feature Engineering)
-- R Amrit Raj (Dataset Collection & Analysis)
-- Subrat Gouda (Deployment & Web Application)
+### Sambit Kumar Bisoi
+Project Lead & Deep Learning Model Development
+### Subham Gouda
+Data Preprocessing & Feature Engineering
+### R Amrit Raj
+Dataset Collection & Analysis
+### Subrat Gouda
+Flask Deployment & Web Interface
+
+## Key Achievements
+
+✔ Achieved 98.96% Accuracy
+✔ Reduced False Positives
+✔ Implemented CNN + LSTM + BiLSTM
+✔ Built Flask-Based Web Application
+✔ Applied NLP Techniques for SMS Analysis
